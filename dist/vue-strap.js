@@ -8084,7 +8084,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	//     >
 	//       <div class="tooltip-arrow"></div>
 	//       <div class="tooltip-inner">
-	//         <slot name="content" v-html="content"></slot>
+	//         <slot name="content">{{content}}</slot>
 	//     </div>
 	//     </div>
 	//   </span>
@@ -8096,7 +8096,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 219 */
 /***/ (function(module, exports) {
 
-	module.exports = "<span v-el:trigger>\n    <slot></slot>\n    <div v-el:popover v-if=\"show\" style=\"display:block;\"\n      :class=\"['tooltip',placement]\"\n      :transition=\"effect\"\n    >\n      <div class=\"tooltip-arrow\"></div>\n      <div class=\"tooltip-inner\">\n        <slot name=\"content\" v-html=\"content\"></slot>\n    </div>\n    </div>\n  </span>";
+	module.exports = "<span v-el:trigger>\n    <slot></slot>\n    <div v-el:popover v-if=\"show\" style=\"display:block;\"\n      :class=\"['tooltip',placement]\"\n      :transition=\"effect\"\n    >\n      <div class=\"tooltip-arrow\"></div>\n      <div class=\"tooltip-inner\">\n        <slot name=\"content\">{{content}}</slot>\n    </div>\n    </div>\n  </span>";
 
 /***/ }),
 /* 220 */
